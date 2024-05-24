@@ -1,18 +1,24 @@
 # CLAMBER: A Benchmark of Identifying and Clarifying Ambiguous Information Needs in Large Language Models
 > **Co-author**: Tong Zhang (Sichuan University), Peixin Qin (Sichuan University)
 
-This is the benchmark dataset, called **CLAMBER**, which is used to evaluate LLMs using a well-organized taxonomy in terms of identifying and clarifying ambiguous information needs.
+This is the benchmark test dataset, called **CLAMBER**, which is used to evaluate LLMs using a well-organized taxonomy in terms of identifying and clarifying ambiguous information needs.
 ## Paper
 [Click Me](https://arxiv.org/abs/2405.12063)
-
 
 ## Ambiguity Taxonomy in the era of LLM
 ![Taxonomy](./taxonomy.png)
 
-
 ## Dataset Information
-我们将很快更新
-字段信息，每个字段的取值范围
+
+| Name                  | Meaning                       | Values                                                                                                                                                              |
+|-----------------------|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| question              | user query                    | string                                                                                                                                                              |
+| context               | context of user query         | string                                                                                                                                                              |
+| clarifying_question   | suggested clarifying question | string                                                                                                                                                              |
+| require_clarification | If user query is ambiguous    | 0/1                                                                                                                                                                 |
+| category              | ambiguity type                | {"FD": "Epistemic Misalignment",  "MC": "Aleatoric Output", "LA": "Linguistic Ambiguity"}                                                                           |
+| subclass              | sub-type                      | {"whom":  "WHOM", "what": "WHAT", "when": "WHEN", "where": "WHERE", "NK":  "UNFAMILIAR", "ICL": "CONTRADICTION", "co-reference": "SEMANTIC", "polysemy": "LEXICAL"} |
+
 
 
 # Reference
