@@ -1,5 +1,5 @@
 # CLAMBER: A Benchmark of Identifying and Clarifying Ambiguous Information Needs in Large Language Models
-> **Co-author**: Tong Zhang (Sichuan University), Peixin Qin (Sichuan University)
+> **Co-first author**: Tong Zhang (Sichuan University), Peixin Qin (Sichuan University)
 
 This is the benchmark test dataset, called **CLAMBER**, which is used to evaluate LLMs using a well-organized taxonomy in terms of identifying and clarifying ambiguous information needs.
 ## Paper
